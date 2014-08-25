@@ -687,7 +687,9 @@ text-shadow: 1px 1px 1px #FFFFFF;
 #npdl00_oCPH1_NavCatalog a, 
 #npdl00_oCPH1_NavClothing a:visited, 
 #npdl00_oCPH1_NavCatalog a:visited {
- color: #FF00BB;
+color: #FF00BB !important;
+text-shadow: 1px 1px 1px #FFFFFF;
+font-size: 18px;
 }
 
 #npdl00_oCPH1_NavClothing a:hover, 
