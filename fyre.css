@@ -409,7 +409,7 @@ background-repeat: no-repeat;
 background-position: left top;
 text-align: left !important;
 height: 32px;
-margin-left: 35px;
+margin-left: 35px !important;
 padding-top: 10px;
 }
 
