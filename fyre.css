@@ -654,12 +654,11 @@ div {background-image: none;}*/
 
 
 /* NAV BAR 1*/
-/*#npdl00_oCPH1_NavBarTop {
+#npdl00_oCPH1_NavBarTop {
 background: url('http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/button2_zps9bbfbe9c.png') center left repeat;
 border-radius: 5px;
-margin:12px 10px 12px 10px;
-height:50px;
-line-height:50px;} 
+margin: 12px 10px 12px 10px;
+line-height: 50px;} 
 
 #npdl00_oCPH1_NavBarTop a {
 font-family: 'Courgette' !important;
@@ -669,9 +668,56 @@ font-size: 14px;
 font-style: normal;
 font-weight: bold;
 color: #000000 !important;
-margin: 0 5px 0 0;
+/*text-shadow: 1px 1px 1px #FFFFFF;*/
+margin-right: 5px;
 padding: 0px 12px;
-display: inline-block;} 
+display: inline-block;
+} 
+
+#npdl00_oCPH1_NavBarTop a:hover {
+text-transform: uppercase;
+text-decoration: none;
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+color: #FFFFFF !important;
+text-shadow: 1px 1px 1px #FFFFFF;
+} 
+
+#npdl00_oCPH1_NavClothing a, 
+#npdl00_oCPH1_NavCatalog a, 
+#npdl00_oCPH1_NavClothing a:visited, 
+#npdl00_oCPH1_NavCatalog a:visited {
+ color: #FF00BB;
+}
+
+#npdl00_oCPH1_NavClothing a:hover, 
+#npdl00_oCPH1_NavCatalog a:hover {
+ color: #FF80DD;
+}
+
+
+/* NAV BAR 2 */
+/*#npdl00_oCPH1_NavBarTop {
+background: none;
+margin: 12px 10px 12px 10px;
+line-height: 50px;} 
+
+#npdl00_oCPH1_NavBarTop a {
+background: url('http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/button2_zps9bbfbe9c.png') center left repeat;
+border: 2px #9C00FF;
+border-radius: 5px;
+font-family: 'Courgette' !important;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 14px;
+font-style: normal;
+font-weight: bold;
+color: #000000 !important;
+margin-right: 5px;
+padding: 0px 12px;
+display: inline-block;
+} 
 
 #npdl00_oCPH1_NavBarTop a:hover {
 text-transform: uppercase;
@@ -694,52 +740,6 @@ text-shadow: 1px 1px 1px #FFFFFF;
 #npdl00_oCPH1_NavCatalog a:hover {
  color: #FF80DD;
 }*/
-
-
-/* NAV BAR 2 */
-#npdl00_oCPH1_NavBarTop {
-background: none;
-margin:12px 10px 12px 10px;
-height:50px;
-line-height:50px;} 
-
-#npdl00_oCPH1_NavBarTop a {
-background: url('http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/button2_zps9bbfbe9c.png') center left repeat;
-border: 2px #9C00FF;
-border-radius: 5px;
-font-family: 'Courgette' !important;
-text-transform: uppercase;
-text-decoration: none;
-font-size: 14px;
-font-style: normal;
-font-weight: bold;
-color: #000000 !important;
-/*text-shadow: 1px 1px 1px #FFFFFF;*/
-margin: 0 5px 0 0;
-padding: 0px 12px;
-display: inline-block;} 
-
-#npdl00_oCPH1_NavBarTop a:hover {
-text-transform: uppercase;
-text-decoration: none;
-font-size: 14px;
-font-style: normal;
-font-weight: bold;
-color: #FFFFFF !important;
-text-shadow: 1px 1px 1px #FFFFFF;
-} 
-
-#npdl00_oCPH1_NavClothing a, 
-#npdl00_oCPH1_NavCatalog a, 
-#npdl00_oCPH1_NavClothing a:visited, 
-#npdl00_oCPH1_NavCatalog a:visited {
- color: #FF00BB;
-}
-
-#npdl00_oCPH1_NavClothing a:hover, 
-#npdl00_oCPH1_NavCatalog a:hover {
- color: #FF80DD;
-}
 
 
 
