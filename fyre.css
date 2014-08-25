@@ -1,6 +1,6 @@
 @import url(//fonts.googleapis.com/css?family=Courgette); 
 @import url(//fonts.googleapis.com/css?family=Frijole);
-@import url(//rlctheme.com/Profiles/Global/Global.css);
+/*@import url(//rlctheme.com/Profiles/Global/Global.css);*/
 /* COLORS SCHEME USED */
 
 /*
@@ -55,7 +55,7 @@ tr {
 background-color: transparent; 
 border: none; 
 border-width: 0;
-text-align: center ;
+/*text-align: center ;*/
 }
 
 /* ERASES AD AND NAV BAR */
