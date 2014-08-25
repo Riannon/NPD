@@ -17,8 +17,8 @@ body,
 .bodyContent {
  background: -webkit(#000000);
  background: -moz(#000000);
- background: -ms-linear-gradient(#000000);
- background: -o-linear-gradient(#000000);
+ background: -ms(#000000);
+ background: -o(#000000);
  background: #000000 !important;
  background-attachment: fixed;
  background-position: center; 
