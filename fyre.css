@@ -1,7 +1,3 @@
-@import url(//fonts.googleapis.com/css?family=Courgette);
-@import url(//fonts.googleapis.com/css?family=Frijole);
-@import url(//rlctheme.com/Profiles/Global/Global.css);
-
 /* COLORS SCHEME USED */
 
 /*
@@ -409,12 +405,8 @@ background-repeat: no-repeat;
 background-position: left top;
 text-align: left !important;
 height: 32px;
-margin-left: 35px !important;
+margin-left: 35px;
 padding-top: 10px;
-}
-
-#ctl00_oCPH1_trBlogEntries a{
-margin-left: 35px !important;
 }
 
 #ctl00_oCPH1_trBlogEntries img {
