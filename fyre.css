@@ -192,7 +192,7 @@ font-size: 16px;
 text-transform: uppercase;
 }
 
-#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type {padding-top: 12px;} 	
+#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type > div:first-of-type > table > tbody > tr > td {padding-top: 12px;} 	
 #MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type > div:first-of-type {} 	
 
 /*div#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img { display:none; }
