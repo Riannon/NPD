@@ -266,7 +266,7 @@ color: #FFFFFF !important;
 font-size: 14px;}
 
 #ctl00_oCPH1_lblRSex {margin-top: 15px;}
-#ctl00_oCPH1_trBlogEntries > td > div {
+#ctl00_oCPH1_trBlogEntries > td > div > b {
  text-align: center; 
  margin-left: 20px !important;
 }
