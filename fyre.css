@@ -500,9 +500,9 @@ text-align: center !important;
 }
 
 /* DIV CONTAINING QUOTE, INFO & VIEW PIC LINK */
-#MSCodesFixer > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr > td {padding-top: 12px;}
+#MSCodesFixer > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr > td {}
 
-
+#ct100_oCPH1_trCommLinks > td {padding-top: 12px;}
 
 
 
