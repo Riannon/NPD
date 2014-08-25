@@ -413,6 +413,10 @@ margin-left: 35px !important;
 padding-top: 10px;
 }
 
+##ctl00_oCPH1_trBlogEntries {
+margin-left: 35px !important;
+}
+
 #ctl00_oCPH1_trBlogEntries img {
 position: fixed;
 height: 32px;
