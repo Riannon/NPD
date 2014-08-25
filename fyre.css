@@ -1,7 +1,8 @@
 @import url(//fonts.googleapis.com/css?family=Courgette); 
 @import url(//fonts.googleapis.com/css?family=Frijole);
 /*@import url(//rlctheme.com/Profiles/Global/Global.css);*/
-/* COLORS SCHEME USED */
+
+/* ---------------------    COLORS SCHEME USED      -------------------------------*/
 
 /*
 #FFFFFF - white            rbga (255, 255, 255, 1)
@@ -13,7 +14,10 @@
 #CE80FF - medium purple    rgba(206, 128, 255, 1)
 #E6BFFE - light purple     rgba(230, 191, 254, 1)
 */
+/* ---------------------    END COLORS SCHEME     -------------------------------*/
 
+
+/* ---------------------    MAIN BODY      -------------------------------*/
 html {background-image: none !important;}
 
 body, 
@@ -43,6 +47,7 @@ color: #CE80FF;
 /* HIDES LAST LOGIN INFO and MEMBER SINCE */
 #ctl00_oCPH1_trMemberStats {display: none !important;}  
 
+/* ---------------------    TABLES      -------------------------------*/
 /* MAKES TABLE TRANSPARENT */
 table, 
 td {
@@ -58,18 +63,17 @@ border-width: 0;
 /*text-align: center ;*/
 }
 
-/* ERASES AD AND NAV BAR */
+/* --------------------------         ERASES AD AND NAV BAR        ---------------------------*/
 .SCMainAdSpace, .SCMainHeaderPanel {display: none;}
 /* DROP DOWN ARROW IMG FROM ALL PLACES */
 img[src="/images/t2/sec-header-arrow-bk.gif"] {display:none;}
 
-/* CONTENT TITLE BARS */
+/* ----------------------------        CONTENT TITLE BARS          -------------------------*/
 
 /* CHANGES FYRE'S PROFILE and MESSAGE CENTER TITLE BARS */
 #MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td > div:first-of-type, 			
 /* CHANGES GENERAL INFO and FYRE'S SCOOP TITLE BARS */
 #ctl00_oCPH1_tbDetailsSection > tr > td  > div:first-of-type, 
-
 /* CHANGES SEXY STUFF TITLE BAR */
 #ctl00_oCPH1_pnlSexyStuff > div:first-of-type, 								
 /* CHANGES WEB GIFTS TITLE BAR */
@@ -94,6 +98,9 @@ color: #FFFFFF;
 font-size: 16px; 
 text-transform: uppercase;
 }
+ 
+table table table table td {filter: none;}
+
 
 #MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type(2) > 
 div:first-of-type > table > tbody > tr > td {padding-top: 12px;} 	
@@ -101,7 +108,7 @@ div:first-of-type > table > tbody > tr > td {padding-top: 12px;}
 
 /*div#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img { display:none; }
 div {background-image: none;}*/
-
+/* ------------------------------      FRIENDS LIST IMGS       -------------------------*/
 /* BORDER AROUND FRIENDS LIST IMGS */
 .PDispBox {
 border-radius: 5px; 
@@ -177,15 +184,13 @@ table table table {
  background-color: transparent;
  opacity: 1.0;
  filter: alpha(100);}*/
- 
-table table table table td {filter: none;}
+
 
 /* WHITE TEXT FOR SUBTITLES */
 td > b {
 font-family: 'Courgette', cursive; 
 color: #FFFFFF; 
 font-size: 14px; 
-
 text-transform: uppercase;
 top: 0px !important;}
 
@@ -389,6 +394,11 @@ background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile
 background-repeat: no-repeat;
 background-position: left top;
 }
+/* WHITE LASTEST BLOGS TITLE */
+#ctl00_oCPH1_lblLastBlogEntries > td > div > b {
+margin-left: 20px;
+text-decoration: underline;
+} 
 
 /*HOT PINK TEXT - LASTEST BLOG ENTRIES LINKS*/
 #ctl00_oCPH1_lblLastBlogEntries a {
@@ -439,11 +449,6 @@ margin-left: 35px;
 
 /*---------------------------------       END MESSAGE CENTER        -------------------------------------------*/
 
-
-
-
-
-
 #ctl00_oCPH1_imgPicture {
 width: 150px;
 height: auto;
@@ -475,7 +480,6 @@ margin-top: 10px;
 font-family: 'Courgette', cursive; 
 color: #9C00FF !important;
 font-size: 14px;
-/*text-shadow: -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE;*/   /* "GLOW" */
 text-align: center !important;
 margin-left: 25px;
 }
@@ -492,7 +496,8 @@ padding: 20px 0px 0px;
 margin-bottom: 25px;
 }
 
-
+/* DIV CONTAINING QUOTE, INFO & VIEW PIC LINK */
+#MSCodesFixer > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr > td {padding-top: 12px;}
 
 
 
