@@ -496,8 +496,7 @@ text-decoration: line-through;
 /* QUOTE */
 #ctl00_oCPH1_lblQuote {
 font-size: 16px;
-padding: 20px 0px 0px;
-margin-bottom: 25px;
+text-align: center !important;
 }
 
 /* DIV CONTAINING QUOTE, INFO & VIEW PIC LINK */
@@ -557,11 +556,13 @@ color: #FEBFED;
 color: #9C00FF;
 }
 
+.rounded.white.description {border: none;}
+
 .giftbody .rounded.white {
 background: transparent;
 }
 
-
+.content > .row > div > img {margin-left:30px;}
 
 
 
