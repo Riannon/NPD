@@ -405,7 +405,6 @@ background-repeat: no-repeat;
 background-position: left top;
 text-align: left !important;
 height: 32px;
-margin-left: 35px;
 padding-top: 10px;
 }
 
@@ -414,6 +413,8 @@ position: fixed;
 height: 32px;
 width: 32px;
 }
+
+#ctl00_oCPH1_trBlogEntries a {margin-left: 35px;}
 
 /* NEON PURPLE TEXT - ALL MY BLOGS */
 #ctl00_oCPH1_trBlogEntries > a.menu2 {
