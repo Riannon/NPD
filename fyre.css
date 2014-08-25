@@ -653,10 +653,26 @@ div {background-image: none;}*/
 
 
 
+/*NAV BAR*/
+#npdl00_oCPH1_NavBarTop {
+margin:0px 10px 0 0px;
+margin-top : ;
+height:50px;
+line-height:50px;} 
 
-
-
-
+#npdl00_oCPH1_NavBarTop a {
+font-family: 'Courgette' !important;
+text-transform: uppercase;
+font-size: 14px;
+font-style: normal;
+letter-spacing: 0em;
+word-spacing: 0em;
+font-weight: 700;
+color: #FFFFFF !important;
+text-shadow: 1px 1px 1px #000;
+margin: 0 5px 0 0;
+padding: 0px 10px;
+display: inline-block;} 
 
 
 
