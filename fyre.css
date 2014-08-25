@@ -569,11 +569,12 @@ background: transparent;
 
 
 
+/* -----------------------------       COMMENTS SECTION        --------------------------- */
 
+#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 {}
 
-
-
-
+#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > a {color: #FF00BB;}
+#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > img {border-radius: 5px;}
 
 
 
