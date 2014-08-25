@@ -474,6 +474,7 @@ color: #9C00FF !important;
 font-size: 14px;
 /*text-shadow: -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE;*/   /* "GLOW" */
 text-align: center !important;
+margin-left: 25px;
 }
 
 #ctl00_oCPH1_pnlViewPics a:hover {
