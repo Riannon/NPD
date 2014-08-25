@@ -105,7 +105,7 @@ table table table table td {filter: none;}
 
 #MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type(2) > 
 div:first-of-type > table > tbody > tr > td {padding-top: 12px;} 	
-#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type > div:first-of-type {} 	
+/*#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type > div:first-of-type {} 	*/
 
 /*div#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img { display:none; }
 div {background-image: none;}*/
