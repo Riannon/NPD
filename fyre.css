@@ -668,7 +668,6 @@ font-size: 14px;
 font-style: normal;
 font-weight: bold;
 color: #000000 !important;
-/*text-shadow: 1px 1px 1px #FFFFFF;*/
 margin-right: 5px;
 padding: 0px 12px;
 display: inline-block;
@@ -693,7 +692,8 @@ text-shadow: 1px 1px 1px #FFFFFF;
 
 #npdl00_oCPH1_NavClothing a:hover, 
 #npdl00_oCPH1_NavCatalog a:hover {
- color: #FF80DD;
+color: #FF80DD !important;
+text-shadow: 1px 1px 1px #FFFFFF;
 }
 
 
