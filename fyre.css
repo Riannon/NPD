@@ -410,10 +410,10 @@ background-position: left top;
 text-align: left !important;
 height: 32px;
 margin-left: 35px !important;
-padding-top: 10px;
+
 }
 
-##ctl00_oCPH1_trBlogEntries {
+#ctl00_oCPH1_trBlogEntries a{
 margin-left: 35px !important;
 }
 
