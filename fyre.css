@@ -274,7 +274,7 @@ font-size: 14px;}
 #ctl00_oCPH1_oDivListOutfits > a.menu2 {
 font-family: 'Courgette', cursive; 
 color: #FF00BB !important;
-font-size: 14px;
+font-size: 20px;
 text-shadow: 1px 1px 1px #000000, -2px 2px 9px #FFCCFB, 2px -2px 9px #FEBFED; /*"GLOW"*/
 text-align: left !important;
 margin-left: 35px;
@@ -349,7 +349,7 @@ line-height: 32px;
 #ctl00_oCPH1_oDivListWishes > a.menu2 {
 font-family: 'Courgette', cursive; 
 color: #9C00FF !important;
-font-size: 14px;
+font-size: 20px;
 text-shadow: 1px 1px 1px #000000, -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE; /*"GLOW"*/
 text-align: left !important;
 margin-left: 35px;
