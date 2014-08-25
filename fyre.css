@@ -95,6 +95,672 @@ font-size: 16px;
 text-transform: uppercase;
 }
 
+@import url(//fonts.googleapis.com/css?family=Courgette); 
+@import url(//fonts.googleapis.com/css?family=Frijole);
+/*@import url(//rlctheme.com/Profiles/Global/Global.css);*/
+/* COLORS SCHEME USED */
+
+/*
+#FFFFFF - white            rbga (255, 255, 255, 1)
+#000000 - black            rgba(0, 0, 0, 1)
+#FF00BB - hot pink         rgba(255, 0, 187, 1)
+#FF80DD - medium pink      rgba (255, 128, 221, 1)
+#FEBFED - light pink       rgba(254, 223, 246, 1)
+#9C00FF - neon purple      rgba(156, 0, 255, 1)
+#CE80FF - medium purple    rgba(206, 128, 255, 1)
+#E6BFFE - light purple     rgba(230, 191, 254, 1)
+*/
+
+html {background-image: none !important;}
+
+body, 
+.bodyContent {
+ background: #000000 !important; 
+ background-attachment: fixed;
+ background-position: center; 
+ background-repeat: repeat; 
+ background-size: cover;
+}
+
+/* ALL LINKS */
+a, a:link {
+color: #9C00FF;
+}
+ 
+a:hover {
+ color: #E6BFFE;
+text-decoration: line-through;
+}
+
+a:visited {
+color: #CE80FF;
+}
+
+#ctl00_oMasterBody > div {background-image: none !important;} 
+/* HIDES LAST LOGIN INFO and MEMBER SINCE */
+#ctl00_oCPH1_trMemberStats {display: none !important;}  
+
+/* MAKES TABLE TRANSPARENT */
+table, 
+td {
+background-color: transparent; 
+border: none; 
+border-width: 0;
+}  
+
+tr {
+background-color: transparent; 
+border: none; 
+border-width: 0;
+/*text-align: center ;*/
+}
+
+/* ERASES AD AND NAV BAR */
+.SCMainAdSpace, .SCMainHeaderPanel {display: none;}
+/* DROP DOWN ARROW IMG FROM ALL PLACES */
+img[src="/images/t2/sec-header-arrow-bk.gif"] {display:none;}
+
+/* CONTENT TITLE BARS */
+
+/* CHANGES FYRE'S PROFILE and MESSAGE CENTER TITLE BARS */
+#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td > div:first-of-type, 			
+/* CHANGES GENERAL INFO and FYRE'S SCOOP TITLE BARS */
+#ctl00_oCPH1_tbDetailsSection > tr > td  > div:first-of-type, 
+
+/* CHANGES SEXY STUFF TITLE BAR */
+#ctl00_oCPH1_pnlSexyStuff > div:first-of-type, 								
+/* CHANGES WEB GIFTS TITLE BAR */
+#ctl00_oCPH1_pnlWebGifts > div:first-of-type,  										
+/* CHANGES????  something in About Me & Like to Meet??? */
+/*#ctl00_oCPH1_tbDetailsSection > tr > td:last-of-type  > div:nth-of-type(3), */
+/* CHANGES? something in Friends List PDispBox?*/
+/*#ctl00_oCPH1_tblFriendsList > tr:first-of-type > td > div, */
+/* CHANGES SEARCH BAR */
+#ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div, .MPToolsBar							
+/* ELEMENT.STYLE */
+{ border-radius: 5px 5px; 
+padding-bottom: 5px;
+text-align: center !important;
+/*border: 2px solid rgba(254, 223, 246, 1); */ /*LIGHT PINK*/
+border: 2px solid rgba(156, 0, 255, 1);  /*NEON PURPLE*/
+/*border: 2px solid rgba(255, 0, 187, 1);*/  /*HOT PINK*/
+background: rgba(0, 0, 0, 0.78) !important;
+background: #000000 url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/label02f_zps56f59111.png")!important;
+font-family: 'Courgette', cursive;
+color: #FFFFFF; 
+font-size: 16px; 
+text-transform: uppercase;
+}
+
+#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type {padding-top: 12px;} 	
+#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type > div:first-of-type {} 	
+
+/*div#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img { display:none; }
+div {background-image: none;}*/
+
+/* BORDER AROUND FRIENDS LIST IMGS */
+.PDispBox {
+border-radius: 5px; 
+border: 2px solid rgba(255, 0, 187, 1);  /*HOT PINK*/
+background: #000000 url('') norepeat;}
+
+.PDispUsername, .PDispImage {
+background: rgba(0, 0, 0, 0.78) !important;
+background-image: none;}
+
+.PDispOnlineSC,
+.PDispOnline3D {
+ background-color: transparent;
+}
+
+/*#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > .PDispUserName,
+#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > .PDispBox
+{ border-radius: 5px 5px; 
+padding-bottom: 5px;
+text-align:center !important;
+border: 2px solid rgba(254, 223, 246, 1); 
+background: rgba(0, 0, 0, 0.78) !important;
+background-image: none;}*/
+
+/*
+#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td > div:first-of-type > img, 
+#ctl00_oCPH1_tbDetailsSection > tr > td  > div:first-of-type > img, 
+#ctl00_oCPH1_pnlSexyStuff > div:first-of-type > img, 
+#ctl00_oCPH1_pnlWebGifts > div:first-of-type > img, 
+#ctl00_oCPH1_lblLinks > div:first-of-type > img, 
+#ctl00_oCPH1_tbDetailsSection > tr > td:last-of-type  > div:nth-of-type(3) > img, 
+#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img, 
+#ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div > img {display:none;} 
+#ctl00_oMasterPanelSizer > tr:first-of-type > td > div,  
+.PDispImage {display: center;}*/
+
+/*
+table table { 
+background-position: center;
+border-style: solid;
+border-width: 2px;
+border-color: transparent;
+padding: 8px;
+opacity: 0.8;
+filter: alpha(opacity=80);}*/
+
+/*
+table table table table {border: 0px}
+table table table {
+border-style: solid;
+border-width: 2px;
+border-color: #000000;
+background-color: transparent;
+background-image: url();
+padding: 0px;
+opacity: 0;
+filter: alpha(opacity=100);}*/
+
+/*
+table table table td {
+	background-color: transparent;
+	padding: 0px;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	 } */
+
+/*
+table table table table {border: 0px}
+table table table {
+ border-style: solid;
+ border-width: 2px; 
+ border-color: transparent;
+ background-color: transparent;
+ opacity: 1.0;
+ filter: alpha(100);}*/
+ 
+table table table table td {filter: none;}
+
+/* WHITE TEXT FOR SUBTITLES */
+td > b {
+font-family: 'Courgette', cursive; 
+color: #FFFFFF; 
+font-size: 14px; 
+
+text-transform: uppercase;
+top: 0px !important;}
+
+/* TRYING TO UNDERLING AND WHITE THE SUBTITLES */
+/*
+div > div > table > tbody > tr > td > b  {
+ font-family: 'Courgette', cursive; 
+ color: #FFFFFF; 
+ font-size: 16px; 
+ text-decoration: underline; 
+ text-align:center !important; 
+ top: 0px !important;} */
+
+/* HOT PINK TEXT FOR MAIN CONTENT */
+div p { 
+font-family: 'Courgette', cursive; 
+color: #FF00BB; 
+font-size: 14px; 
+text-align: center !important; 
+top: 0px !important;}  
+
+/* GENERAL INFO and SEXY STUFF TEXT */
+td > span {
+font-family: 'Courgette', cursive; 
+color: #FF00BB; 
+font-size: 12px; 
+text-align: center !important; 
+top: 0px !important;}  
+
+/* REMOVES ICONS FROM MESSAGE CENTER and FYRE'S PROFILE */
+img[src="/images/ico-16-zoom.gif"],
+img[src="/images/ico-16-clothing.gif"],
+img[src="/images/ico-16-document.gif"],
+img[src="/images/ico-16-mail.gif"],
+img[src="/images/ico-16-friend.gif"],
+img[src="/images/ico-16-transfer.gif"],
+img[src="/images/ico-16-gift.gif"],
+img[src="/images/ico-16-block.gif"]/*,
+img[src="/images/t1/VIP-30.png"]*/ {display:none;}
+
+/* REPLACES ICONS FROM MESSAGE CENTER and FYRE'S PROFILE */
+/*
+background-image: url(http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/Document_zps81a71f90.png);}
+
+*/
+
+a.link, .menu2.link {color: #FFFFFF !important;}
+a.link, .menu2.link: hover {color: #9C00FF !important; text-decoration: none;}
+a.link, .menu2.link {color: #FF00BB !important;}
+
+
+
+/*---------------------------------------       MESSAGE CENTER      ----------------------------------------*/
+
+#ctl00_oCPH1_oDivStatus {
+font-family: 'Courgette', cursive; 
+color: #FF00BB !important;
+font-size: 16px;
+padding-top: 12px;
+padding-bottom: 12px;
+}
+
+/* WHITE TEXT FOR PROFILE PERSONAL INFO & BLOG ENTRY TITLE */
+#ctl00_oCPH1_lblRSex,
+#ctl00_oCPH1_lblMySexuality,
+#ctl00_oCPH1_lblAge, 
+#ctl00_oCPH1_lblCityState,
+#ctl00_oCPH1_lblCountry,
+#ctl00_oCPH1_trMemberStats,
+#ctl00_oCPH1_trBlogEntries {
+font-family: 'Courgette', cursive; 
+color: #FFFFFF !important;
+font-size: 14px;}
+
+#ctl00_oCPH1_lblRSex {margin-top: 15px;}
+
+/* HOT PINK TEXT - MY OUTFITS LINK */
+#ctl00_oCPH1_trListOutfits > td {padding-top: 25px; line-height:34px;}
+#ctl00_oCPH1_oDivListOutfits > a.menu2 {
+font-family: 'Courgette', cursive; 
+color: #FF00BB !important;
+font-size: 14px;
+text-shadow: 1px 1px 1px #000000, -2px 2px 9px #FFCCFB, 2px -2px 9px #FEBFED; /*"GLOW"*/
+text-align: left !important;
+margin-left: 35px;
+}
+
+/* WHITE LINKS */
+#ctl00_oCPH1_trCommLinks a,
+#ctl00_oCPH1_trSendChips a {
+font-family: 'Frijole', cursive;; 
+color: #FFFFFF !important;
+font-weight: normal;
+font-size: 12px;
+text-align: left !important;
+margin-left: 35px;
+}
+
+/* ICON REPLACE - MESSAGE ME */
+#ctl00_oCPH1_trCommLinks {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/1a_zpsf5edb152.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+line-height: 32px;
+/*padding-top:12px;*/
+/*vertical-align: middle;*/
+}
+
+#ctl00_oCPH1_trCommLinks > div:first-child a {text-align: left !important;}
+
+/* ICON REPLACE - ADD ME */
+#ctl00_oCPH1_oDivAdAsFriend   {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/2b_zpsff22fb4a.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+text-align: left !important;
+}
+
+/* ICON REPLACE - SEND ME FUNDS */
+#ctl00_oCPH1_oDivTransferRays   {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/3a_zpsb90f92fd.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+text-align: left !important;
+}
+
+/* ICON REPLACE - SEND ME GIFT */
+#ctl00_oCPH1_oDivSendGift   {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/4b_zps57ed72b3.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+text-align: left !important;
+}
+
+/* ICON REPLACE - BLOCK ME */
+#ctl00_oCPH1_trCommLinks > td > div:last-child {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/5a_zps376e7cf1.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+text-align: left !important;
+}
+
+/* ICON REPLACE - SEND ME CHIPS */
+#ctl00_oCPH1_oDivTransferChips {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/6b_zps0f28da41.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+text-align: left !important;
+line-height: 32px;
+}
+
+
+/* NEON PURPLE TEXT - MY WISHLIST LINK */
+#ctl00_oCPH1_oDivListWishes > a.menu2 {
+font-family: 'Courgette', cursive; 
+color: #9C00FF !important;
+font-size: 14px;
+text-shadow: 1px 1px 1px #000000, -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE; /*"GLOW"*/
+text-align: left !important;
+margin-left: 35px;
+}
+
+/* HOT PINK - MY OUTFITS */
+#ctl00_oCPH1_oDivListOutfits a:hover ,
+/* NEON PURPLE - MY WISHLIST */
+#ctl00_oCPH1_oDivListWishes a:hover {  
+text-decoration: line-through;
+}
+
+/* ICON REPLACE - MY OUTIFTS */
+#ctl00_oCPH1_oDivListOutfits {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/7a_zps8d010ec6.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+text-align: left !important;
+height: 32px;
+/*padding-top: 50px;*/
+}
+
+#ctl00_oCPH1_oDivListOutfits img {
+position: fixed;
+}
+
+/* ICON REPLACE - MY WISHLIST */
+#ctl00_oCPH1_oDivListWishes {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/8b_zps28cb963b.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+text-align: left !important;
+height: 32px;
+}
+
+#ctl00_oCPH1_oDivListWishes img {
+position: fixed;
+height: 32px;
+width: 32px;
+}
+
+
+
+#ctl00_oCPH1_imgVIPOnly {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/VIP-30b_zpsa076e8cb.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+}
+
+/*HOT PINK TEXT - LASTEST BLOG ENTRIES LINKS*/
+#ctl00_oCPH1_lblLastBlogEntries a {
+font-family: 'Courgette', cursive; 
+color: #FF00BB !important;
+font-size: 12px;}
+
+#ctl00_oCPH1_lblLastBlogEntries a:hover {
+text-decoration: line-through;
+}
+
+#ctl00_oCPH1_lblLastBlogEntries a:visited {
+color: #FF80DD !important;
+text-decoration: line-through;
+}
+
+/* ICON REPLACE - ALL MY BLOGS */
+#ctl00_oCPH1_trBlogEntries > td > div:nth-child(2) {
+background-image: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/9a_zpsf741c46d.png") !important;
+background-repeat: no-repeat;
+background-position: left top;
+text-align: left !important;
+height: 32px;
+padding-top: 10px;
+}
+
+#ctl00_oCPH1_trBlogEntries img {
+position: fixed;
+height: 32px;
+width: 32px;
+margin-right: 35px;
+}
+
+#ctl00_oCPH1_trBlogEntries a {margin-left: 35px;}
+
+/* NEON PURPLE TEXT - ALL MY BLOGS */
+#ctl00_oCPH1_trBlogEntries > a.menu2 {
+font-family: 'Courgette', cursive; 
+color: #9C00FF !important;
+font-size: 14px;
+text-shadow: -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE; /*"GLOW"*/
+text-align: left !important;
+margin-left: 35px;
+}
+
+
+
+/*---------------------------------       END MESSAGE CENTER        -------------------------------------------*/
+
+
+
+
+
+
+#ctl00_oCPH1_imgPicture {
+width: 150px;
+height: auto;
+}
+
+/* MAIN PROFILE PICTURE */
+#ctl00_oCPH1_lnkProfPicLink > img { 
+border: 2px solid #FF00BB;
+border-radius: 12px;
+margin-top: 10px;
+}
+
+
+/*
+#FFFFFF - white            rbga (255, 255, 255, 1)
+#000000 - black            rgba(0, 0, 0, 1)
+#FF00BB - hot pink         rgba(255, 0, 187, 1)
+#FF80DD - medium pink      rgba (255, 128, 221, 1)
+#FEBFED - light pink       rgba(254, 223, 246, 1)
+#9C00FF - neon purple      rgba(156, 0, 255, 1)
+#CE80FF - medium purple    rgba(206, 128, 255, 1)
+#E6BFFE - light purple     rgba(230, 191, 254, 1)
+*/
+
+
+
+/* VIEW MY PICS LINK */
+#ctl00_oCPH1_pnlViewPics a {
+font-family: 'Courgette', cursive; 
+color: #9C00FF !important;
+font-size: 14px;
+/*text-shadow: -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE;*/   /* "GLOW" */
+text-align: center !important;
+margin-left: 25px;
+}
+
+#ctl00_oCPH1_pnlViewPics a:hover {
+text-decoration: line-through;
+}
+
+
+/* QUOTE */
+#ctl00_oCPH1_lblQuote {
+font-size: 16px;
+padding: 20px 0px 0px;
+margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MY GIFTS TEXT*/
+h3, .note {
+font-family: 'Courgette', cursive;  
+color: #FFFFFF;
+font-size: 12px;
+}
+
+.content {
+font-family: 'Courgette', cursive;  
+color: #FF00BB;
+font-size: 12px;
+}
+
+.title a {
+font-family: 'Courgette', cursive; 
+color: #FF00BB;
+font-size: 14px;
+}
+
+.created, 
+.rounded.white.description b {
+font-family: 'Courgette', cursive; 
+color: #FEBFED;
+color: #9C00FF;
+}
+
+.giftbody .rounded.white {
+background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------CURSORS------------------------------------------*/
+/* HEART HEADPHONES */ 
+/*body, a:hover {
+ cursor: url(http://cur.cursors-4u.net/others/oth-8/oth758.cur), progress !important;}*/
+
+/* PINK COFFEE */ 
+/*body, a:hover {
+ cursor: url(http://ani.cursors-4u.net/food/foo-7/foo657.cur), progress !important;} */
+
+/* PINK ARROW */ 
+/*body, a:hover {
+ cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), progress !important;} */
+ 
+/* PINK ROSE */ 
+/*body, a:hover {
+cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat943.cur), progress !important;} */
+  
+/* BLACK SPERM */ 
+/*body, a:hover {
+cursor: url(http://cur.cursors-4u.net/others/oth-8/oth726.ani), url(http://cur.cursors-4u.net/others/oth-8/oth726.png), progress !important;}*/
+
+/* PINK GLITTERY LIPS */ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/lpinkg-lipspinkglitter.gif"), auto;}*/
+
+/* PINK LIPS */ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/lipspink-lipspink.gif"), auto;}*/
+
+/* PINK FIRE */ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/flamepink.gif"), auto;}*/
+
+/* PINK GUITAR */ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/guitarpink.gif"), auto;}*/
+
+/* PINK DRAGON FLY */ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragonflypink.gif"), auto;}*/
+
+/* PINK DRAGON */ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon11.gif"), auto;}*/
+
+/* AQUA & PURPLE DRAGON */ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon10.gif"), auto;}*/
+
+/* PINK DRAGON FLY - DK PINK */ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon-pink.gif"), auto;}*/
+
+/* LT PURPLE DRAGON FLY*/ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon-purple-lt.gif"), auto;}*/
+ 
+/* DRK PURPLE DRAGON FLY*/ 
+/*body, a:hover {
+ cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon-purple-drk.gif"), auto;}*/
+
 /*div#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img { display:none; }
 div {background-image: none;}*/
 
