@@ -16,6 +16,7 @@
 */
 /* ---------------------    END COLORS SCHEME     -------------------------------*/
 
+
 /* ---------------------    MAIN BODY      -------------------------------*/
 html {background-image: none !important;}
 
@@ -82,7 +83,8 @@ img[src="/images/t2/sec-header-arrow-bk.gif"] {display:none;}
 /* CHANGES? something in Friends List PDispBox?*/
 /*#ctl00_oCPH1_tblFriendsList > tr:first-of-type > td > div, */
 /* CHANGES SEARCH BAR */
-#ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div, .MPToolsBar							
+#ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div, .MPToolsBar,
+#ct100_iMasterContentDIv > div:nth-child(2)
 /* ELEMENT.STYLE */
 { border-radius: 5px 5px; 
 padding-bottom: 5px;
@@ -497,35 +499,8 @@ text-align: center !important;
 }
 
 /* DIV CONTAINING QUOTE, INFO & VIEW PIC LINK */
-#MSCodesFixer > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr > td {}
-
+/*#MSCodesFixer > tbody > tr > td > table > tbody > tr > td > div > table > tbody > tr > td {}*/
 #ct100_oCPH1_trCommLinks > td {padding-top: 12px;}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MY GIFTS TEXT*/
 h3, .note {
@@ -561,16 +536,17 @@ background: transparent;
 
 .content > .row > div > img {margin-right:30px;}
 
+/* -----------------------------            END GIFTS          ---------------------------*/
 
+/* -----------------------------       MORE ABOUT SECTION        --------------------------- */
 
-
-
-
-
+/* -----------------------------       END MORE ABOUT SECTION        --------------------------- */
+/* -----------------------------       FRIENDS SECTION        --------------------------- */
+/* -----------------------------       END FRIENDS SECTION        --------------------------- */
 
 /* -----------------------------       COMMENTS SECTION        --------------------------- */
 
-#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 {}
+/*#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 {}*/
 
 #ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > a {color: #FF00BB;}
 #ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > img {border-radius: 5px;}
