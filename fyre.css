@@ -66,7 +66,8 @@ border-width: 0;
 /* --------------------------         ERASES AD AND NAV BAR        ---------------------------*/
 .SCMainAdSpace, .SCMainHeaderPanel {display: none;}
 /* DROP DOWN ARROW IMG FROM ALL PLACES */
-img[src="/images/t2/sec-header-arrow-bk.gif"] {display:none;}
+img[src="/images/t2/sec-header-arrow-bk.gif"] {display: none;}
+img[src="/images/t2/sec-header-bg-bk.gif"] {display: none;
 
 /* ----------------------------        CONTENT TITLE BARS          -------------------------*/
 
@@ -125,68 +126,6 @@ background-image: none;}
  background-color: transparent;
 }
 
-/*#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > .PDispUserName,
-#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > .PDispBox
-{ border-radius: 5px 5px; 
-padding-bottom: 5px;
-text-align:center !important;
-border: 2px solid rgba(254, 223, 246, 1); 
-background: rgba(0, 0, 0, 0.78) !important;
-background-image: none;}*/
-
-/*
-#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td > div:first-of-type > img, 
-#ctl00_oCPH1_tbDetailsSection > tr > td  > div:first-of-type > img, 
-#ctl00_oCPH1_pnlSexyStuff > div:first-of-type > img, 
-#ctl00_oCPH1_pnlWebGifts > div:first-of-type > img, 
-#ctl00_oCPH1_lblLinks > div:first-of-type > img, 
-#ctl00_oCPH1_tbDetailsSection > tr > td:last-of-type  > div:nth-of-type(3) > img, 
-#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img, 
-#ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div > img {display:none;} 
-#ctl00_oMasterPanelSizer > tr:first-of-type > td > div,  
-.PDispImage {display: center;}*/
-
-/*
-table table { 
-background-position: center;
-border-style: solid;
-border-width: 2px;
-border-color: transparent;
-padding: 8px;
-opacity: 0.8;
-filter: alpha(opacity=80);}*/
-
-/*
-table table table table {border: 0px}
-table table table {
-border-style: solid;
-border-width: 2px;
-border-color: #000000;
-background-color: transparent;
-background-image: url();
-padding: 0px;
-opacity: 0;
-filter: alpha(opacity=100);}*/
-
-/*
-table table table td {
-	background-color: transparent;
-	padding: 0px;
-	opacity: 1;
-	filter: alpha(opacity=100);
-	 } */
-
-/*
-table table table table {border: 0px}
-table table table {
- border-style: solid;
- border-width: 2px; 
- border-color: transparent;
- background-color: transparent;
- opacity: 1.0;
- filter: alpha(100);}*/
-
-
 /* WHITE TEXT FOR SUBTITLES */
 td > b {
 font-family: 'Courgette', cursive; 
@@ -194,16 +133,6 @@ color: #FFFFFF;
 font-size: 14px; 
 text-transform: uppercase;
 top: 0px !important;}
-
-/* TRYING TO UNDERLING AND WHITE THE SUBTITLES */
-/*
-div > div > table > tbody > tr > td > b  {
- font-family: 'Courgette', cursive; 
- color: #FFFFFF; 
- font-size: 16px; 
- text-decoration: underline; 
- text-align:center !important; 
- top: 0px !important;} */
 
 /* HOT PINK TEXT FOR MAIN CONTENT */
 div p { 
@@ -464,20 +393,6 @@ border-radius: 12px;
 margin-top: 12px;
 }
 
-
-/*
-#FFFFFF - white            rbga (255, 255, 255, 1)
-#000000 - black            rgba(0, 0, 0, 1)
-#FF00BB - hot pink         rgba(255, 0, 187, 1)
-#FF80DD - medium pink      rgba (255, 128, 221, 1)
-#FEBFED - light pink       rgba(254, 223, 246, 1)
-#9C00FF - neon purple      rgba(156, 0, 255, 1)
-#CE80FF - medium purple    rgba(206, 128, 255, 1)
-#E6BFFE - light purple     rgba(230, 191, 254, 1)
-*/
-
-
-
 /* VIEW MY PICS LINK */
 #ctl00_oCPH1_pnlViewPics a {
 font-family: 'Courgette', cursive; 
@@ -490,7 +405,6 @@ margin-left: 25px;
 #ctl00_oCPH1_pnlViewPics a:hover {
 text-decoration: line-through;
 }
-
 
 /* QUOTE */
 #ctl00_oCPH1_lblQuote {
@@ -534,7 +448,7 @@ color: #9C00FF;
 background: transparent;
 }
 
-.content > .row > div > img {margin-right:30px;}
+.content > .row > div > img {margin-right: 30px;}
 
 /* -----------------------------            END GIFTS          ---------------------------*/
 
@@ -551,7 +465,7 @@ background: transparent;
 #ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > a {color: #FF00BB;}
 #ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > img {border-radius: 5px;}
 
-#ct100_oCPH1_tblPComments {
+#ct100_oCPH1_tblPComments p {
 width: 550px;
 max-width: 550px;
 }
@@ -591,7 +505,9 @@ box-shadow: 0px 2px 4px #000000 !important;
 -webkit-box-shadow: 0px 2px 4px #000000 !important;} 
 
 
-
+.pcomment_report {
+ 
+}
 
 
 
