@@ -553,10 +553,10 @@ text-shadow: 2px 2px 2px #000000;
 
 #ad1 {
 width: 265px; 
-border: 2px solid #00FF00;
+border: 2px solid #00FF00 !important;
 }
 
 #ad2 {
 width: 265px; 
-border: 2px solid #FF00BB;
+border: 2px solid #FF00BB !important;
 }
