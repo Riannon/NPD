@@ -86,6 +86,7 @@ background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {disp
 #ctl00_oCPH1_tbFriendsSection > tr:first-child > td:first-child > div:first-child
 /* ELEMENT.STYLE */
 { border-radius: 5px 5px; 
+padding-top: 5px;
 padding-bottom: 5px;
 text-align: center !important;
 /*border: 2px solid rgba(156, 0, 255, 1);*/  /*NEON PURPLE*/
@@ -504,7 +505,13 @@ box-shadow: 0px 2px 4px #000000 !important;
 
 
 .pcomment_report {
- 
+ background:url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/button2_zps9bbfbe9c.png") center center; 
+padding:5px 15px;
+text-shadow:1px 1px 1px #000;
+color:#fff !important;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
 }
 
 /* NAV BAR 1*/
