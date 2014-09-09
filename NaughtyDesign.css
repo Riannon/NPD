@@ -82,7 +82,8 @@ background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {disp
 /*#ctl00_oCPH1_tblFriendsList > tr:first-of-type > td > div, */
 /* CHANGES SEARCH BAR */
 #ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div, .MPToolsBar,
-#ct100_oMasterContentDiv > div:nth-child(2)
+#ct100_oMasterContentDiv > div:nth-child(2),
+#ctl00_oCPH1_tbFriendsSection > tr:first-child > td:first-child > div:first-child
 /* ELEMENT.STYLE */
 { border-radius: 5px 5px; 
 padding-bottom: 5px;
