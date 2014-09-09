@@ -87,7 +87,6 @@ background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {disp
 #ctl00_oCPH1_tbDetailsSection  > tr:first-child  > td  > div[style*="000000"] > img:first-child
 /* ELEMENT.STYLE */
 { border-radius: 5px 5px; 
-top: 0px;
 padding-top: 5px;
 padding-bottom: 8px;
 text-align: center !important;
@@ -474,7 +473,7 @@ max-width: 550px;
 
 #ct100_oCPH1_tbCommentsSection > tr:first-child > td:first-child > div:first-child > div {
 border-radius: 5px 5px; 
-padding-bottom: 5px;
+padding-bottom: 0px;
 text-align:center !important;
 border: 2px solid rgba(245, 100, 206, 1); 
 background: rgba(0, 0, 0, 0.78) !important;
@@ -490,14 +489,14 @@ width: expression(this.width > 750 ? 750: auto);}
 
 #ctl00_oCPH1_tbCommentsSection  > tr:first-child  > td:first-child > div:first-child, 
 #ctl00_oCPH1_tbFriendsSection > tr:first-child > td:first-child > div:first-child  {
-background:url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/label02f_zps56f59111.png") repeat !important;
+background:url("") repeat !important;
 -webkit-border-top-left-radius: 5px;
 -webkit-border-top-right-radius: 5px;
 -moz-border-radius-topleft: 5px;
 -moz-border-radius-topright: 5px;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
-height: 35px !important;
+height: 28px !important;
 /*width:225px;*/
 width: auto;
 margin-left:0px;
