@@ -87,6 +87,7 @@ background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {disp
 #ctl00_oCPH1_tbDetailsSection  > tr:first-child  > td  > div[style*="000000"] > img:first-child
 /* ELEMENT.STYLE */
 { border-radius: 5px 5px; 
+top: 0px;
 padding-top: 3px;
 padding-bottom: 3px;
 text-align: center !important;
@@ -99,6 +100,7 @@ font-family: 'Alegreya', serif;
 color: #FFFFFF; 
 font-size: 18px; 
 text-transform: uppercase;
+height: auto;
 }
  
 table table table table td {filter: none;}
