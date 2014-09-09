@@ -100,7 +100,7 @@ font-family: 'Alegreya', serif;
 color: #FFFFFF; 
 font-size: 18px; 
 text-transform: uppercase;
-
+height: 28px !important;
 }
  
 table table table table td {filter: none;}
