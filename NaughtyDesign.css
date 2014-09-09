@@ -83,11 +83,12 @@ background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {disp
 /* CHANGES SEARCH BAR */
 #ctl00_oCPH1_tbCommentsSection > tr:first-of-type > td > div, .MPToolsBar,
 #ct100_oMasterContentDiv > div:nth-child(2),
-#ctl00_oCPH1_tbFriendsSection > tr:first-child > td:first-child > div:first-child
+#ctl00_oCPH1_tbFriendsSection > tr:first-child > td:first-child > div:first-child,
+#ctl00_oCPH1_tbDetailsSection  > tr:first-child  > td  > div[style*="000000"] > img:first-child
 /* ELEMENT.STYLE */
 { border-radius: 5px 5px; 
-padding-top: 5px;
-padding-bottom: 5px;
+padding-top: 3px;
+padding-bottom: 3px;
 text-align: center !important;
 /*border: 2px solid rgba(156, 0, 255, 1);*/  /*NEON PURPLE*/
 border: 2px solid rgba(0, 255, 0, 1);  /*NEON GREEN*/
