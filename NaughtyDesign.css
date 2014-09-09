@@ -95,6 +95,8 @@ font-family: 'Alegreya', serif;
 color: #FFFFFF; 
 font-size: 18px; 
 text-transform: uppercase;
+padding-top: 4px;
+padding-bottom: 4px;
 }
  
 table table table table td {filter: none;}
