@@ -88,8 +88,8 @@ background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {disp
 /* ELEMENT.STYLE */
 { border-radius: 5px 5px; 
 top: 0px;
-padding-top: 3px;
-padding-bottom: 3px;
+padding-top: 5px;
+padding-bottom: 8px;
 text-align: center !important;
 /*border: 2px solid rgba(156, 0, 255, 1);*/  /*NEON PURPLE*/
 border: 2px solid rgba(0, 255, 0, 1);  /*NEON GREEN*/
@@ -100,7 +100,7 @@ font-family: 'Alegreya', serif;
 color: #FFFFFF; 
 font-size: 18px; 
 text-transform: uppercase;
-height: auto;
+
 }
  
 table table table table td {filter: none;}
