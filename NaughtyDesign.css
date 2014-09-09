@@ -563,3 +563,13 @@ text-shadow: 2px 2px 2px #000000;
 
 #ctl00_oCPH1_pnlSocialPoints {
  background: #000000 url('') norepeat;}
+ 
+ 
+#NDPR_logo {
+position:absolute;
+height:120px;
+width:960px;
+z-index:1;
+top:0px;
+margin-left:-344px;
+background: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/NDPR_Logo1_zps18c78a7f.png") no-repeat;}
