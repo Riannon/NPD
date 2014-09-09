@@ -532,7 +532,7 @@ text-decoration: none;
 font-size: 13px;
 font-style: normal;
 font-weight: bold;
-color: #FFFFFF !important;
+color: #FF00BB !important;
 text-shadow: 1px 1px 1px #FFFFFF;
 } 
 
@@ -547,7 +547,7 @@ font-size: 14px !important;
 
 #npdl00_oCPH1_NavClothing:hover, 
 #npdl00_oCPH1_NavCatalog:hover {
-color: #FFFFFF !important;
+color: #FF00BB !important;
 text-shadow: 2px 2px 2px #000000;
 }
 
