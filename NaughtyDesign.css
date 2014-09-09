@@ -31,12 +31,12 @@ color: #9C00FF;
 }
  
 a:hover {
- color: #E6BFFE;
+color: #FF00BB;
 text-decoration: line-through;
 }
 
 a:visited {
-color: #CE80FF;
+color: #00FF00;
 }
 
 #ctl00_oMasterBody > div {background-image: none !important;} 
