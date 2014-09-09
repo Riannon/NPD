@@ -541,14 +541,14 @@ text-shadow: 1px 1px 1px #FFFFFF;
 #npdl00_oCPH1_NavClothing:visited, 
 #npdl00_oCPH1_NavCatalog:visited {
 color: #00FF00 !important;
-text-shadow: 1px 1px 1px #FFFFFF;
-font-size: 18px;
+text-shadow: 2px 2px 2px #000000;
+font-size: 16px;
 }
 
 #npdl00_oCPH1_NavClothing:hover, 
 #npdl00_oCPH1_NavCatalog:hover {
-color: #FF80DD !important;
-text-shadow: 1px 1px 1px #FFFFFF;
+color: #FFFFFF !important;
+text-shadow: 2px 2px 2px #000000;
 }
 
 
