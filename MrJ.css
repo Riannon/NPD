@@ -14,14 +14,14 @@
 
 
 /* ---------------------    MAIN BODY      -------------------------------*/
-html {background-image: url('http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/tattoo1_zpsc6d26b9f.jpg') !important;}
+html {background-image: none !important;}
 
 body, 
 .bodyContent {
- background: #000000 url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/tattoo1_zpsc6d26b9f.jpg") !important; 
+ background: #000000 url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/bkgd4_zps8ccbc3ec.jpg") !important; 
  background-attachment: fixed;
  background-position: center; 
- background-repeat: none; 
+ background-repeat: repeat; 
  background-size: cover;
 }
 
