@@ -62,7 +62,20 @@ border-width: 0;
 /*text-align: center ;*/
 }
 
-hr {background: url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/divider_ltgreen_zps603dfe8f.png");
+hr {
+ /*background: url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/divider_ltgreen_zps603dfe8f.png");*/
+ background-color:rgba(0,0,0,0.10);
+border: 0; 
+height: 1px; 
+background-image: 
+-webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); 
+background-image: 
+-moz-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); 
+background-image: 
+-ms-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); 
+background-image: 
+-o-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,0.75), rgba(255,255,255,0)); } 
+
 /* --------------------------         ERASES AD AND NAV BAR        ---------------------------*/
 .SCMainAdSpace, .SCMainHeaderPanel {display: none;}
 /* DROP DOWN ARROW IMG FROM ALL PLACES */
