@@ -32,7 +32,7 @@ color: #9C00FF;
 }
  
 a:hover {
-color: #FF00BB;
+color: #00FF00;
 text-decoration: line-through;
 }
 
@@ -147,7 +147,7 @@ top: 0px !important;}
 /* GENERAL INFO and SEXY STUFF TEXT */
 td > span {
 font-family: 'Alegreya', serif; 
-color: #FF00BB; 
+color: #00FF00; 
 font-size: 12px; 
 text-align: center !important; 
 top: 0px !important;}  
@@ -171,7 +171,7 @@ background-image: url(http://i173.photobucket.com/albums/w55/syn1234567/profile%
 
 a.link, .menu2.link {color: #FFFFFF !important;}
 a.link, .menu2.link: hover {color: #9C00FF !important; text-decoration: none;}
-a.link, .menu2.link {color: #FF00BB !important;}
+a.link, .menu2.link {color: #00FF00 !important;}
 
 
 
@@ -179,7 +179,7 @@ a.link, .menu2.link {color: #FF00BB !important;}
 
 #ctl00_oCPH1_oDivStatus {
 font-family: 'Alegreya', serif; 
-color: #FF00BB !important;
+color: #00FF00 !important;
 font-size: 16px;
 padding-top: 12px;
 padding-bottom: 12px;
@@ -337,7 +337,7 @@ text-decoration: underline;
 /*HOT PINK TEXT - LASTEST BLOG ENTRIES LINKS*/
 #ctl00_oCPH1_lblLastBlogEntries a {
 font-family: 'Alegreya', serif; 
-color: #FF00BB !important;
+color: #00FF00 !important;
 font-size: 12px;}
 
 #ctl00_oCPH1_lblLastBlogEntries a:hover {
@@ -390,7 +390,7 @@ height: auto;
 
 /* MAIN PROFILE PICTURE */
 #ctl00_oCPH1_lnkProfPicLink > img { 
-border: 2px solid #FF00BB;
+border: 2px solid #00FF00;
 border-radius: 12px;
 margin-top: 12px;
 }
@@ -427,13 +427,13 @@ font-size: 12px;
 
 .content {
 font-family: 'Alegreya', serif;  
-color: #FF00BB;
+color: #00FF00;
 font-size: 12px;
 }
 
 .title a {
 font-family: 'Alegreya', serif; 
-color: #FF00BB;
+color: #00FF00;
 font-size: 14px;
 }
 
@@ -464,7 +464,7 @@ background: transparent;
 
 /*#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 {}*/
 
-#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > a {color: #FF00BB;}
+#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > a {color: #00FF00;}
 #ct100_oCPH1_tblPComments > tbody > tr > div.menu2 > img {border-radius: 5px;}
 
 #ct100_oCPH1_tblPComments p {
@@ -543,7 +543,7 @@ text-decoration: none;
 font-size: 13px;
 font-style: normal;
 font-weight: bold;
-color: #FF00BB !important;
+color: #00FF00 !important;
 text-shadow: 1px 1px 1px #000000;
 } 
 
@@ -558,7 +558,7 @@ font-size: 14px !important;
 
 #npdl00_oCPH1_NavClothing:hover, 
 #npdl00_oCPH1_NavCatalog:hover {
-color: #FF00BB !important;
+color: #00FF00 !important;
 text-shadow: 2px 2px 2px #000000;
 }
 
