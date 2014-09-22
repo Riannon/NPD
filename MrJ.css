@@ -281,7 +281,7 @@ line-height: 32px;
 font-family: 'Alegreya', serif; 
 color: #9C00FF !important;
 font-size: 20px;
-text-shadow: 1px 1px 1px #000000, -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE; /*"GLOW"*/
+text-shadow: 1px 1px 1px #000000, -1px 1px 8px #9C00FF, 1px -1px 8px #9C00FF; /*"GLOW"*/
 text-align: left !important;
 margin-left: 35px;
 }
