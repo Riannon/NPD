@@ -5,7 +5,7 @@
 /*
 #FFFFFF - white            rbga (255, 255, 255, 1)
 #000000 - black            rgba(0, 0, 0, 1)
-#9C00FF - neon purple      rgba(156, 0, 255, 1)
+#8301fc - neon purple      rgba(131, 1, 252, 1)
 #00FF00 - neon green       rbga(0, 255, 0, 1)
 #54C571 - zombie green     rbga(84, 197, 113, 1)
 
@@ -27,7 +27,7 @@ body,
 
 /* ALL LINKS */
 a, a:link {
-color: #9C00FF;
+color: #8301fc;
 }
  
 a:hover {
@@ -137,7 +137,7 @@ top: 0px !important;}
 /* HOT PINK TEXT FOR MAIN CONTENT */
 div p { 
 font-family: 'Alef', sans-serif; 
-color: #9C00FF; 
+color: #8301fc; 
 font-size: 14px; 
 text-align: center !important; 
 top: 0px !important;}  
@@ -168,7 +168,7 @@ background-image: url(http://i173.photobucket.com/albums/w55/syn1234567/profile%
 */
 
 a.link, .menu2.link {color: #FFFFFF !important;}
-a.link, .menu2.link: hover {color: #9C00FF !important; text-decoration: none;}
+a.link, .menu2.link: hover {color: #8301fc !important; text-decoration: none;}
 a.link, .menu2.link {color: #00FF00 !important;}
 
 
@@ -278,9 +278,9 @@ line-height: 32px;
 /* NEON PURPLE TEXT - MY WISHLIST LINK */
 #ctl00_oCPH1_oDivListWishes > a.menu2 {
 font-family: 'Alef', sans-serif; 
-color: #9C00FF !important;
+color: #8301fc !important;
 font-size: 20px;
-text-shadow: 1px 1px 1px #000000, -1px 1px 8px #9C00FF, 1px -1px 8px #9C00FF; /*"GLOW"*/
+text-shadow: 1px 1px 1px #000000, -1px 1px 8px #8301fc, 1px -1px 8px #8301fc; /*"GLOW"*/
 text-align: left !important;
 margin-left: 35px;
 }
@@ -370,7 +370,7 @@ margin-right: 35px;
 /* NEON PURPLE TEXT - ALL MY BLOGS */
 #ctl00_oCPH1_trBlogEntries > a.menu2 {
 font-family: 'Alef', sans-serif; 
-color: #9C00FF !important;
+color: #8301fc !important;
 font-size: 14px;
 text-shadow: -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE; /*"GLOW"*/
 text-align: left !important;
@@ -396,7 +396,7 @@ margin-top: 12px;
 /* VIEW MY PICS LINK */
 #ctl00_oCPH1_pnlViewPics a {
 font-family: 'Alef', sans-serif; 
-color: #9C00FF !important;
+color: #8301fc !important;
 font-size: 14px;
 text-align: center !important;
 margin-left: 25px;
@@ -439,7 +439,7 @@ font-size: 14px;
 .rounded.white.description b {
 font-family: 'Alef', sans-serif; 
 color: #FEBFED;
-color: #9C00FF;
+color: #8301fc;
 }
 
 .rounded.white.description {border: none;}
