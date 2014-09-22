@@ -518,16 +518,16 @@ border-radius: 2px;
 
 /* NAV BAR 1*/
 #npdl00_oCPH1_NavBarTop {
-background: url('http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/button1b_zps65c6c645.png') center left repeat;
+background: url('') center left repeat;
 border-radius: 5px;
 margin: 12px 10px 12px 10px;
 line-height: 50px;} 
 
 #npdl00_oCPH1_NavBarTop a {
-font-family: 'Courgette' !important;
+font-family: 'Alef' !important;
 text-transform: uppercase;
 text-decoration: none;
-font-size: 13px;
+font-size: 14px;
 font-style: normal;
 font-weight: bold;
 color: #FFFFFF;
