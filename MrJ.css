@@ -5,7 +5,7 @@
 /*
 #FFFFFF - white            rbga (255, 255, 255, 1)
 #000000 - black            rgba(0, 0, 0, 1)
-#8301fc - neon purple      rgba(131, 1, 252, 1)
+#8301FC - neon purple      rgba(131, 1, 252, 1)
 #00FF00 - neon green       rbga(0, 255, 0, 1)
 #54C571 - zombie green     rbga(84, 197, 113, 1)
 
@@ -550,14 +550,14 @@ text-shadow: 1px 1px 1px #000000;
 #npdl00_oCPH1_NavCatalog, 
 #npdl00_oCPH1_NavClothing:visited, 
 #npdl00_oCPH1_NavCatalog:visited {
-color: #00FF00 !important;
+color: #8301FC !important;
 text-shadow: 2px 2px 2px #000000;
 font-size: 18px !important;
 }
 
 #npdl00_oCPH1_NavClothing:hover, 
 #npdl00_oCPH1_NavCatalog:hover {
-color: #00FF00 !important;
+color: #8301FC !important;
 text-shadow: 2px 2px 2px #000000;
 }
 
