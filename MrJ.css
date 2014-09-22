@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,900,700);
-/*@import url(//rlctheme.com/Profiles/Global/Global.css);*/
+@import url(http://fonts.googleapis.com/css?family=Alef:400,700);
 
 /* ---------------------    COLORS SCHEME USED      -------------------------------*/
 
@@ -95,7 +94,7 @@ text-align: center !important;
 border: 2px solid rgba(0, 255, 0, 1);  /*NEON GREEN*/
 background: rgba(0, 0, 0, 0.78) !important;
 background: #000000 url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/labelJ03_zps0f8f971c.png") !important;
-font-family: 'Alegreya', serif;
+font-family: 'Alef', sans-serif;
 color: #FFFFFF; 
 font-size: 18px; 
 text-transform: uppercase;
@@ -129,7 +128,7 @@ background-image: none;}
 
 /* WHITE TEXT FOR SUBTITLES */
 td > b {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #FFFFFF; 
 font-size: 14px; 
 text-transform: uppercase;
@@ -137,7 +136,7 @@ top: 0px !important;}
 
 /* HOT PINK TEXT FOR MAIN CONTENT */
 div p { 
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #9C00FF; 
 font-size: 14px; 
 text-align: center !important; 
@@ -145,7 +144,7 @@ top: 0px !important;}
 
 /* GENERAL INFO and SEXY STUFF TEXT */
 td > span {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #00FF00; 
 font-size: 16px; 
 text-align: center !important; 
@@ -177,7 +176,7 @@ a.link, .menu2.link {color: #00FF00 !important;}
 /*---------------------------------------       MESSAGE CENTER      ----------------------------------------*/
 
 #ctl00_oCPH1_oDivStatus {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #00FF00 !important;
 font-size: 16px;
 padding-top: 12px;
@@ -192,7 +191,7 @@ padding-bottom: 12px;
 #ctl00_oCPH1_lblCountry,
 #ctl00_oCPH1_trMemberStats,
 #ctl00_oCPH1_trBlogEntries {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #54C571 !important;
 font-size: 14px;}
 
@@ -203,7 +202,7 @@ font-size: 14px;}
 /* HOT PINK TEXT - MY OUTFITS LINK */
 #ctl00_oCPH1_trListOutfits > td {padding-top: 25px; line-height:34px;}
 #ctl00_oCPH1_oDivListOutfits > a.menu2 {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #00FF00 !important;
 font-size: 20px;
 text-shadow: 1px 1px 1px #000000, -2px 2px 9px #00FF00, 2px -2px 9px #00FF00; /*"GLOW"*/
@@ -278,7 +277,7 @@ line-height: 32px;
 
 /* NEON PURPLE TEXT - MY WISHLIST LINK */
 #ctl00_oCPH1_oDivListWishes > a.menu2 {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #9C00FF !important;
 font-size: 20px;
 text-shadow: 1px 1px 1px #000000, -1px 1px 8px #9C00FF, 1px -1px 8px #9C00FF; /*"GLOW"*/
@@ -335,7 +334,7 @@ text-decoration: underline;
 
 /*HOT PINK TEXT - LASTEST BLOG ENTRIES LINKS*/
 #ctl00_oCPH1_lblLastBlogEntries a {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #00FF00 !important;
 font-size: 12px;}
 
@@ -370,7 +369,7 @@ margin-right: 35px;
 
 /* NEON PURPLE TEXT - ALL MY BLOGS */
 #ctl00_oCPH1_trBlogEntries > a.menu2 {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #9C00FF !important;
 font-size: 14px;
 text-shadow: -1px 1px 8px #F3CCFF, 1px -1px 8px #E6BFFE; /*"GLOW"*/
@@ -396,7 +395,7 @@ margin-top: 12px;
 
 /* VIEW MY PICS LINK */
 #ctl00_oCPH1_pnlViewPics a {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #9C00FF !important;
 font-size: 14px;
 text-align: center !important;
@@ -419,26 +418,26 @@ text-align: center !important;
 
 /* MY GIFTS TEXT*/
 h3, .note {
-font-family: 'Alegreya', serif;  
+font-family: 'Alef', sans-serif;  
 color: #FFFFFF;
 font-size: 12px;
 }
 
 .content {
-font-family: 'Alegreya', serif;  
+font-family: 'Alef', sans-serif;  
 color: #00FF00;
 font-size: 12px;
 }
 
 .title a {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #00FF00;
 font-size: 14px;
 }
 
 .created, 
 .rounded.white.description b {
-font-family: 'Alegreya', serif; 
+font-family: 'Alef', sans-serif; 
 color: #FEBFED;
 color: #9C00FF;
 }
