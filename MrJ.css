@@ -18,7 +18,7 @@ html {background-image: url('http://i173.photobucket.com/albums/w55/syn1234567/F
 
 body, 
 .bodyContent {
-/* background: #000000 !important; */
+ background: #000000 url('http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/tattoo1_zpsc6d26b9f.jpg) !important; 
  background-attachment: fixed;
  background-position: center; 
  background-repeat: repeat; 
@@ -93,7 +93,7 @@ text-align: center !important;
 /*border: 2px solid rgba(156, 0, 255, 1);*/  /*NEON PURPLE*/
 border: 2px solid rgba(0, 255, 0, 1);  /*NEON GREEN*/
 background: rgba(0, 0, 0, 0.78) !important;
-background: #000000 url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/labelJ03_zps0f8f971c.png") !important;
+background: #000000 url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/labelJ02_zps4d7cafeb.png") !important;
 font-family: 'Alef', sans-serif;
 color: #FFFFFF; 
 font-size: 18px; 
