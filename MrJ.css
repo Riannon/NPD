@@ -86,14 +86,15 @@ background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {disp
 #ctl00_oCPH1_tbFriendsSection > tr:first-child > td:first-child > div:first-child,
 #ctl00_oCPH1_tbDetailsSection  > tr:first-child  > td  > div[style*="000000"] > img:first-child
 /* ELEMENT.STYLE */
-{ border-radius: 5px 5px; 
+{ 
+/*border-radius: 5px 5px; */
 padding-top: 5px;
 padding-bottom: 8px;
 text-align: center !important;
 /*border: 2px solid rgba(156, 0, 255, 1);*/  /*NEON PURPLE*/
-border: 2px solid rgba(0, 255, 0, 1);  /*NEON GREEN*/
+/*border: 2px solid rgba(0, 255, 0, 1);*/  /*NEON GREEN*/
 background: rgba(0, 0, 0, 0.78) !important;
-background: #000000 url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/labelJ_zps57b30be8.png") !important;
+background: /*#000000*/ url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/labelJ1_zps084a5f62.png") !important;
 font-family: 'Alef', sans-serif;
 color: #FFFFFF; 
 font-size: 18px; 
