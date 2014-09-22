@@ -19,10 +19,10 @@ html {background-image: none !important;}
 body, 
 .bodyContent {
  background: #000000 url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/bkgd4_zps8ccbc3ec.jpg") !important; 
- background-position: center; 
- background-repeat: no-repeat; 
- background-attachment: fixed;
- background-size: cover;
+ background-position: center !important; 
+ background-repeat: no-repeat !important; 
+ background-attachment: fixed !important;
+ background-size: cover !important;
 }
 
 /* ALL LINKS */
