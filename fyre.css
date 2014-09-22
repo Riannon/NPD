@@ -1,6 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Courgette); 
 @import url(//fonts.googleapis.com/css?family=Frijole);
-/*@import url(//rlctheme.com/Profiles/Global/Global.css);*/
 
 /* ---------------------    COLORS SCHEME USED      -------------------------------*/
 
@@ -18,7 +17,7 @@
 
 
 /* ---------------------    MAIN BODY      -------------------------------*/
-html {background-image: none !important;}
+html {background: #000000 !important;}
 
 body, 
 .bodyContent {
