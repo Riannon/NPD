@@ -485,7 +485,9 @@ background: transparent;
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 height: 28px !important;
-/*width:225px;*/
+text-transform: uppercase;
+text-align: center !important;
+font-family: 'Alef' !important;
 width: auto;
 margin-left:0px;
 margin-top:30px;
