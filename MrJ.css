@@ -101,6 +101,7 @@ font-size: 18px;
 text-transform: uppercase;
 height: 28px !important;
 text-shadow: -1px 1px 8px #000000, 1px -1px 8px #000000; /*"SHADOW"*/
+z-index: -1;
 }
  
 table table table table td {filter: none;}
