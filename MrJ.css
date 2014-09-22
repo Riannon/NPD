@@ -471,7 +471,26 @@ background: transparent;
 /* -----------------------------            END GIFTS          ---------------------------*/
 
 /* -----------------------------       MORE ABOUT SECTION        --------------------------- */
-
+#ctl00_oCPH1_tbDetailsSection > tr:first-child > td > div[style="000000"] {
+ /*font-weight: bold;
+ font-size: 18px;
+ color:;
+ padding: 3px 0px 3px 10px;
+ text-shadow:3px 2px 1px #FFFFFF;*/
+ background:url("http://i173.photobucket.com/albums/w55/syn1234567/For%20Jay/J_prof/labelJ_zps57b30be8.png") repeat !important;
+-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+height: 28px !important;
+/*width:225px;*/
+width: auto;
+margin-left:0px;
+margin-top:30px;
+ 
+}
 /* -----------------------------       END MORE ABOUT SECTION        --------------------------- */
 /* -----------------------------       FRIENDS SECTION        --------------------------- */
 /* -----------------------------       END FRIENDS SECTION        --------------------------- */
