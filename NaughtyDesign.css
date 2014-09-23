@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,900,700);
-/*@import url(//rlctheme.com/Profiles/Global/Global.css);*/
+@import url("http://fonts.googleapis.com/css?family=Alegreya:400italic,700italic,900italic,400,900,700");
 
 /* ---------------------    COLORS SCHEME USED      -------------------------------*/
 
@@ -79,6 +78,7 @@ background-image:
 img[src="/images/t2/sec-header-arrow-bk.gif"] {display: none;}
 /* BKGRD TITLE BAR */
 background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {display: none;}
+background[src="/images/t2/sec-header-bg-bk.gif"] {display: none;}
 
 /* ----------------------------        CONTENT TITLE BARS          -------------------------*/
 
