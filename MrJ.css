@@ -118,8 +118,7 @@ text-shadow: -1px 1px 8px #000000, 1px -1px 8px #000000; /*"SHADOW"*/
 z-index: -1;
 }
  
-table table table table td {filter: none;}
-
+/*table table table table td {filter: none;}*/
 
 #MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type(2) > 
 div:first-of-type > table > tbody > tr > td {padding-top: 12px;} 	
@@ -185,7 +184,7 @@ background-image: url(http://i173.photobucket.com/albums/w55/syn1234567/profile%
 */
 
 a.link, .menu2.link {color: #FFFFFF !important;}
-a.link, .menu2.link: hover {color: #8301fc !important; text-decoration: none;}
+a.link, .menu2.link:hover {color: #8301fc !important; text-decoration: none;}
 a.link, .menu2.link {color: #00FF00 !important;}
 
 
@@ -599,7 +598,7 @@ text-shadow: 2px 2px 2px #000000;
 }
 
 #ctl00_oCPH1_pnlSocialPoints {
- background: #000000 url('') norepeat;}
+ background: #000000 url('') no-repeat;}
  
  
 #NDPR_logo {
@@ -610,4 +609,4 @@ z-index: 1;
 top: 90px;
 margin-left: -744px;
 /*background: url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/NDPR_Logo1_zps18c78a7f.png") no-repeat;
-background-attachment: fixed;*/*}
+background-attachment: fixed;*/}
