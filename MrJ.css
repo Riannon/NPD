@@ -1,13 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Alef:400,700");
-@Override
-    public void doFilter(ServletRequest req, ServletResponse res, FilterChain chain) throws IOException, ServletException {
-        HttpServletRequest request = (HttpServletRequest) req;
-        HttpServletResponse response = (HttpServletResponse) res;
-        if(request.getHeader("accept")!=null && request.getHeader("accept").contains("css")){
-            response.setHeader("Content-Type", "text/css");
-        }
-        chain.doFilter(req, response);
-    }
+
 /* ---------------------    COLORS SCHEME USED      -------------------------------*/
 
 /*
