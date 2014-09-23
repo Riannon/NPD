@@ -497,7 +497,9 @@ background: rgba(0, 0, 0, 0.78) !important;
 #ctl00_oCPH1_tbCommentsSection p {width:750px;} 
 #ctl00_oCPH1_tbCommentsSection p img {
 max-width:750px;
-width: expression(this.width > 750 ? 750: auto);} 
+/*width: expression(this.width > 750 ? 750: auto);*/
+ 
+} 
 #ctl00_oCPH1_tblPComments p {text-align:center;} 
 
 
