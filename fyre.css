@@ -2,7 +2,6 @@
 @import url("http://fonts.googleapis.com/css?family=Frijole");
 
 /* ---------------------    COLORS SCHEME USED      -------------------------------*/
-
 /*
 #FFFFFF - white            rbga (255, 255, 255, 1)
 #000000 - black            rgba(0, 0, 0, 1)
@@ -14,7 +13,6 @@
 #E6BFFE - light purple     rgba(230, 191, 254, 1)
 */
 /* ---------------------    END COLORS SCHEME     -------------------------------*/
-
 
 /* ---------------------    MAIN BODY      -------------------------------*/
 html {background: #000000 !important;}
@@ -117,7 +115,6 @@ text-transform: uppercase;
  
 table table table table td {filter: none;}
 
-
 #MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type(2) > 
 div:first-of-type > table > tbody > tr > td {padding-top: 12px;} 	
 /*#MSCodesFixer > tbody > tr > td > table > tbody:first-of-type  > tr > td:nth-of-type > div:first-of-type {} 	*/
@@ -178,13 +175,11 @@ img[src="/images/t1/VIP-30.png"]*/ {display:none;}
 /* REPLACES ICONS FROM MESSAGE CENTER and FYRE'S PROFILE */
 /*
 background-image: url(http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu/Document_zps81a71f90.png);}
-
 */
 
 a.link, .menu2.link {color: #FFFFFF !important;}
 a.link, .menu2.link: hover {color: #9C00FF !important; text-decoration: none;}
 a.link, .menu2.link {color: #FF00BB !important;}
-
 
 
 /*---------------------------------------       MESSAGE CENTER      ----------------------------------------*/
@@ -391,8 +386,6 @@ text-align: left !important;
 margin-left: 35px;
 }
 
-
-
 /*---------------------------------       END MESSAGE CENTER        -------------------------------------------*/
 
 #ctl00_oCPH1_imgPicture {
@@ -469,10 +462,8 @@ background: transparent;
 /* -----------------------------       MORE ABOUT SECTION        --------------------------- */
 
 /* -----------------------------       END MORE ABOUT SECTION        --------------------------- */
-/* -----------------------------       FRIENDS SECTION        --------------------------- */
-/* -----------------------------       END FRIENDS SECTION        --------------------------- */
 
-/* -----------------------------       COMMENTS SECTION        --------------------------- */
+/* -----------------------------       FRIENDS & COMMENTS SECTION        --------------------------- */
 
 /*#ct100_oCPH1_tblPComments > tbody > tr > div.menu2 {}*/
 
@@ -519,98 +510,7 @@ box-shadow: 0px 2px 4px #000000 !important;
 -moz-box-shadow: 0px 2px 4px #000000 !important;
 -webkit-box-shadow: 0px 2px 4px #000000 !important;} 
 
-
-.pcomment_report {
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------------------------------CURSORS------------------------------------------*/
-/* HEART HEADPHONES */ 
-/*body, a:hover {
- cursor: url(http://cur.cursors-4u.net/others/oth-8/oth758.cur), progress !important;}*/
-
-/* PINK COFFEE */ 
-/*body, a:hover {
- cursor: url(http://ani.cursors-4u.net/food/foo-7/foo657.cur), progress !important;} */
-
-/* PINK ARROW */ 
-/*body, a:hover {
- cursor: url(http://ani.cursors-4u.net/cursors/cur-11/cur1089.cur), progress !important;} */
- 
-/* PINK ROSE */ 
-/*body, a:hover {
-cursor: url(http://cur.cursors-4u.net/nature/nat-10/nat943.cur), progress !important;} */
-  
-/* BLACK SPERM */ 
-/*body, a:hover {
-cursor: url(http://cur.cursors-4u.net/others/oth-8/oth726.ani), url(http://cur.cursors-4u.net/others/oth-8/oth726.png), progress !important;}*/
-
-/* PINK GLITTERY LIPS */ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/lpinkg-lipspinkglitter.gif"), auto;}*/
-
-/* PINK LIPS */ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/lipspink-lipspink.gif"), auto;}*/
-
-/* PINK FIRE */ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/flamepink.gif"), auto;}*/
-
-/* PINK GUITAR */ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/guitarpink.gif"), auto;}*/
-
-/* PINK DRAGON FLY */ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragonflypink.gif"), auto;}*/
-
-/* PINK DRAGON */ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon11.gif"), auto;}*/
-
-/* AQUA & PURPLE DRAGON */ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon10.gif"), auto;}*/
-
-/* PINK DRAGON FLY - DK PINK */ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon-pink.gif"), auto;}*/
-
-/* LT PURPLE DRAGON FLY*/ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon-purple-lt.gif"), auto;}*/
- 
-/* DRK PURPLE DRAGON FLY*/ 
-/*body, a:hover {
- cursor: url("http://downloads.totallyfreecursors.com/thumbnails/dragon-purple-drk.gif"), auto;}*/
-
-/*div#ctl00_oCPH1_tbFriendsSection > tr:first-of-type > td > div > img { display:none; }
-div {background-image: none;}*/
-
-
+/*.pcomment_report {}*/
 
 /* NAV BAR 1*/
 #npdl00_oCPH1_NavBarTop {
@@ -626,7 +526,7 @@ text-decoration: none;
 font-size: 16px;
 font-style: normal;
 font-weight: bold;
-color: #000000 !important;
+color: #000000;
 margin-right: 5px;
 padding: 0px 12px;
 display: inline-block;
@@ -648,7 +548,7 @@ text-shadow: 1px 1px 1px #FFFFFF;
 #npdl00_oCPH1_NavCatalog:visited {
 color: #FF00BB !important;
 text-shadow: 1px 1px 1px #FFFFFF;
-font-size: 20px !important;
+/*font-size: 20px !important;*/
 }
 
 #npdl00_oCPH1_NavClothing:hover, 
@@ -656,7 +556,6 @@ font-size: 20px !important;
 color: #FF80DD !important;
 text-shadow: 1px 1px 1px #FFFFFF;
 }
-
 
 /* NAV BAR 2 */
 /*#npdl00_oCPH1_NavBarTop {
@@ -674,7 +573,7 @@ text-decoration: none;
 font-size: 14px;
 font-style: normal;
 font-weight: bold;
-color: #000000 !important;
+color: #000000;
 margin-right: 5px;
 padding: 0px 12px;
 display: inline-block;
@@ -694,22 +593,11 @@ text-shadow: 1px 1px 1px #FFFFFF;
 #npdl00_oCPH1_NavCatalog a, 
 #npdl00_oCPH1_NavClothing a:visited, 
 #npdl00_oCPH1_NavCatalog a:visited {
- color: #FF00BB;
+ color: #FF00BB !important;
 }
 
 #npdl00_oCPH1_NavClothing a:hover, 
 #npdl00_oCPH1_NavCatalog a:hover {
  color: #FF80DD;
 }*/
-
-
-
-
-
-
-
-
-
-
-
 
