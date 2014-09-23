@@ -132,7 +132,7 @@ div {background-image: none;}*/
 .PDispBox {
 border-radius: 5px; 
 border: 2px solid rgba(0, 255, 0, 1);  /*NEON GREEN*/
-background: #000000 url('') norepeat;}
+background: #000000 url('') no-repeat;}
 
 .PDispUsername, .PDispImage {
 background: rgba(0, 0, 0, 0.78) !important;
