@@ -131,7 +131,7 @@ div {background-image: none;}*/
 /* BORDER AROUND FRIENDS LIST IMGS */
 .PDispBox {
 border-radius: 5px; 
-border: 2px solid rbga(0, 255, 0, 1);  /*HOT PINK*/
+border: 2px solid rgba(0, 255, 0, 1);  /*NEON GREEN*/
 background: #000000 url('') norepeat;}
 
 .PDispUsername, .PDispImage {
