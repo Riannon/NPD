@@ -513,7 +513,7 @@ background:url("http://i173.photobucket.com/albums/w55/syn1234567/profile%20stuu
 border-top-left-radius: 5px;
 border-top-right-radius: 5px;
 height: 28px !important;
-/*width:225px;*/
+width: 840px !important;
 width: auto;
 margin-left:0px;
 margin-top:30px;
@@ -568,7 +568,7 @@ text-shadow: 1px 1px 1px #000000;
 #npdl00_oCPH1_NavCatalog:visited {
 color: #00FF00 !important;
 text-shadow: 2px 2px 2px #000000;
-font-size: 14px !important;
+font-size: 15px !important;
 }
 
 #npdl00_oCPH1_NavClothing:hover, 
