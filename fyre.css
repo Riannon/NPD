@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Courgette); 
-@import url(//fonts.googleapis.com/css?family=Frijole);
+@import url("http://fonts.googleapis.com/css?family=Courgette");
+@import url("http://fonts.googleapis.com/css?family=Frijole");
 
 /* ---------------------    COLORS SCHEME USED      -------------------------------*/
 
@@ -82,7 +82,7 @@ background-image:
 img[src="/images/t2/sec-header-arrow-bk.gif"] {display: none;}
 /* BKGRD TITLE BAR */
 background[src="http://www.utherverse.com/images/t2/sec-header-bg-bk.gif"] {display: none;}
-
+background[src="/images/t2/sec-header-bg-bk.gif"] {display: none;}
 /* ----------------------------        CONTENT TITLE BARS          -------------------------*/
 
 /* CHANGES FYRE'S PROFILE and MESSAGE CENTER TITLE BARS */
