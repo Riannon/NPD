@@ -471,7 +471,7 @@ background: transparent;
 /* -----------------------------            END GIFTS          ---------------------------*/
 
 /* -----------------------------       MORE ABOUT SECTION        --------------------------- */
-#ctl00_oCPH1_tbDetailsSection > tr:first-child > td > div[style="000000"] > div {
+#ctl00_oCPH1_tbDetailsSection > tr:first-child > td > div[style="#000000 url('/images/t2/sec-header-bg-bk.gif') repeat-x"] > div {
  /*font-weight: bold;
  font-size: 18px;
  color:;
