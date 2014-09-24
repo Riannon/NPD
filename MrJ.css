@@ -13,7 +13,7 @@
 /* ---------------------    END COLORS SCHEME     -------------------------------*/
 
 /* ---------------------    MAIN BODY      -------------------------------*/
-html {background-image: none !important;}
+html {background: #000000 !important;}
 
 body, 
 .bodyContent {
